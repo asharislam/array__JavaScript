@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <script>
+
+        var numbers = [20, 40, 60, 80, 90];
+
+        document.write("**** arrys list  *** <br>")
+        document.write(numbers+ "<br>");
+
+
+        document.write("**** arrys length  *** <br>")
+
+        var len = numbers.length;
+        document.write(len+ "<br>");
+
+
+        document.write("**** arrys shift  *** <br>")
+
+        var num = numbers.shift();
+        document.write(numbers+ "<br>")
+        document.write("removed element is: " + num +"<br>")
+
+
+        document.write("**** arrys unshift  *** <br>")
+        numbers.unshift(10);
+        document.write(numbers+ "<br>")
+
+
+
+
+
+        // push, pop
+
+
+        document.write("**** arrys pop  *** <br>")
+        // removing from last 
+
+        var num = numbers.pop();
+        document.write(numbers+ "<br>")
+        document.write("removed element is: " + num +"<br>")
+
+
+        document.write("**** arrys push  *** <br>")
+        numbers.push(100);
+        document.write(numbers+ "<br>")
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <script>
+
+
+var number = [20, 40, 60, 80, 90, 100, 120 ];
+document.write(number+ "<br>");
+
+
+document.write( "***** splice ******<br>");
+
+var num2 = number.splice(3);
+document.write(number+ "<br>");
+document.write(num2+ "<br>");
+
+
+document.write( "***** splice ******<br>");
+
+var num2 = number.splice(3, 2); 
+document.write(number+ "<br>");
+document.write(num2+ "<br>");
+
+document.write( "***** splice ******<br>");
+
+var num2 = number.splice(3, 2, 200, 2020, 230); 
+document.write(number+ "<br>");
+document.write(num2+ "<br>");
+
+
+
+document.write( "***** arrys concat ******<br>");
+var array1 = [10, 20, 30];
+var array2 = [50, 60, 70];
+
+var result__array = array1.concat(array2);
+document.write(result__array+ "<br>");
+
+    </script>
+</body>
+</html>
